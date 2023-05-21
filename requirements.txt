@@ -1,0 +1,8 @@
+scikit-learn
+tensorflow-cpu
+numpy
+matplotlib
+seaborn
+pandas
+kaggle
+tensorflow
