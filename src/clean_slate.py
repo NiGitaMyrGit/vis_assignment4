@@ -9,6 +9,11 @@ from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from sklearn.metrics import classification_report
 from argparse import ArgumentParser
 
+#ignore warnings
+import warnings
+warnings.filterwarnings('always')
+warnings.filterwarnings('ignore')
+
 # Argument Parser
 parser = ArgumentParser(description='Logistic Regression Classifier')
 parser.add_argument('-r','--report_path', type=str, default='out/CNN_classification_report.txt',
